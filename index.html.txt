@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NVA Network</title>
+
+<style>
+
+body{
+background:#000;
+color:white;
+font-family:Arial;
+margin:0;
+text-align:center;
+}
+
+.hero{
+padding:120px 20px;
+background:url('banner.jpg');
+background-size:cover;
+}
+
+h1{
+font-size:80px;
+color:#FFD700;
+}
+
+.btn{
+padding:15px 35px;
+background:#FFD700;
+color:black;
+text-decoration:none;
+border-radius:8px;
+margin:10px;
+display:inline-block;
+font-weight:bold;
+}
+
+.section{
+padding:80px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+border:1px solid #333;
+padding:20px;
+margin:10px;
+border-radius:10px;
+display:inline-block;
+width:260px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<h1>NVA</h1>
+
+<h2>Decentralized Value Network</h2>
+
+<p>
+Connecting Users, Liquidity and Innovation
+</p>
+
+<a href="#" class="btn">Launch App</a>
+
+<a href="#" class="btn">Join Community</a>
+
+</div>
+
+<div class="section">
+
+<h2>About NVA</h2>
+
+<p>
+NVA Network is a decentralized value network built on Solana,
+designed to connect users, liquidity, and innovation through a
+fast, secure, and transparent blockchain ecosystem.
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Features</h2>
+
+<div class="card">Solana Powered</div>
+<div class="card">Global Liquidity</div>
+<div class="card">DAO Governance</div>
+<div class="card">Secure Ecosystem</div>
+<div class="card">Web3 Innovation</div>
+<div class="card">Value Network</div>
+
+</div>
+
+<div class="section">
+
+<h2>Tokenomics</h2>
+
+<p>NVA</p>
+<p>10,000,000 Supply</p>
+<p>0% Tax</p>
+
+</div>
+
+<div class="section">
+
+<h2>Community</h2>
+
+<p>Telegram</p>
+<p>X (Twitter)</p>
+<p>Discord</p>
+
+</div>
+
+</body>
+</html>
