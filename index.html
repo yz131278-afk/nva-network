@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NVA Network</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#000;
+overflow:hidden;
+}
+
+.hero{
+height:100vh;
+width:100%;
+
+background:url('banner.jpg');
+background-size:contain;
+background-repeat:no-repeat;
+background-position:center center;
+background-color:#000;
+
+display:flex;
+justify-content:flex-end;
+align-items:flex-end;
+
+padding:30px;
+}
+
+.panel{
+
+background:rgba(0,0,0,0.75);
+
+backdrop-filter:blur(8px);
+
+padding:20px;
+
+border-radius:15px;
+
+width:260px;
+
+box-shadow:0 0 20px rgba(255,215,0,0.3);
+}
+
+.btn{
+
+display:block;
+
+width:100%;
+
+padding:15px;
+
+margin-bottom:12px;
+
+background:#FFD700;
+
+color:#000;
+
+font-weight:bold;
+
+text-decoration:none;
+
+text-align:center;
+
+border-radius:50px;
+
+transition:.3s;
+}
+
+.btn:hover{
+
+transform:translateY(-2px);
+
+box-shadow:0 0 20px #FFD700;
+}
+
+.contract{
+
+background:#111;
+
+padding:10px;
+
+border-radius:8px;
+
+font-size:12px;
+
+color:#fff;
+
+word-break:break-all;
+
+margin-top:10px;
+}
+
+.copy-btn{
+
+width:100%;
+
+margin-top:10px;
+
+padding:12px;
+
+background:#FFD700;
+
+border:none;
+
+border-radius:50px;
+
+font-weight:bold;
+
+cursor:pointer;
+}
+
+.copy-btn:hover{
+
+box-shadow:0 0 15px #FFD700;
+}
+
+@media(max-width:768px){
+
+.hero{
+
+background-size:contain;
+
+justify-content:center;
+
+align-items:flex-end;
+
+padding:15px;
+}
+
+.panel{
+
+width:100%;
+
+max-width:320px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<div class="panel">
+
+<a href="https://raydium.io" class="btn">
+BUY NVA
+</a>
+
+<a href="https://t.me/NVA_Alex" class="btn">
+JOIN TELEGRAM
+</a>
+
+<div class="contract" id="contract">
+
+fcCNkVkcPbyfbXazBajFzBvAjJDAwhc6oVhmxNRpump
+
+</div>
+
+<button class="copy-btn" onclick="copyAddress()">
+
+COPY CONTRACT
+
+</button>
+
+</div>
+
+</div>
+
+<script>
+
+function copyAddress(){
+
+const text =
+document.getElementById("contract").innerText;
+
+navigator.clipboard.writeText(text);
+
+alert("Contract Address Copied");
+
+}
+
+</script>
+
+</body>
+</html>
